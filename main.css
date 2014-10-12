@@ -1,0 +1,119 @@
+/* MY CSS STARTS HERE */
+
+* {
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+nav {
+	height: 40px;
+	line-height: 40px;
+	margin-right: 40px;
+	display: block;
+	text-align: right;
+	padding-right: 30px;
+	word-spacing: 10px;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.grid {
+	height: 22px;
+	width: 22px;
+	padding-top: 15px;
+}
+
+.box {
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 7px 7px;
+	border-radius: 2px;
+	color: white;
+	background-color: #4285f4;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.option:hover {
+	text-decoration: underline;
+	font color: #000;
+}
+
+.logo {
+	height: 95px;
+	width: 269px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+input:hover {
+	border: 1px solid #335CD6;
+}
+
+input {
+	font: 14px sans-serif;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: auto;
+	display: block;
+	width: 55%;
+	height: 25px;
+	background-image: url ('https://e9ff4d9bd29b3855953650cd4c3e5f53781a07aa.googledrive.com/host/0Bx8CubHPD9CCUGlhSVYxaWdjUDg/images/microphone.png');
+}
+
+.searchbutton {
+	font-weight: bold;
+	outline: none;
+	border: 1px solid #dcdcdc;
+	padding: 5px 5px;
+	border-radius: 2px;
+	color: #444;
+	font-size: 12px;
+	background-color: #f5f5f5;
+	text-align: center;
+	display: inline-block;
+}
+
+footer {
+	background-color: #f2f2f2;
+	display: block;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	bottom: 0;
+	margin: 0;
+	border-top: 1px solid rgb(228,288,288);
+	padding-left: 20px;
+}
+
+.leftfooter {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	word-spacing: 20px;
+	font-size: small;
+}
+
+.rightfooter {
+	display: inline;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	word-spacing: 20px;
+	font-size: small;
+	padding-right: 90px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	font color: #000;
+}
